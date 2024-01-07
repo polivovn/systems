@@ -83,7 +83,6 @@ public class TodoTest {
 
     @Test
     public void shouldTestQueryForEpicTrue() {
-        ;
 
         Epic task = new Epic(3, new String[]{"проснуться", "выйти из дома", "дойти до остоновки"});
         boolean expected = true;
@@ -93,7 +92,6 @@ public class TodoTest {
 
     @Test
     public void shouldTestQueryForEpicFalse() {
-        ;
 
         Epic task = new Epic(3, new String[]{"проснуться", "выйти из дома", "дойти до остоновки"});
         boolean expected = false;

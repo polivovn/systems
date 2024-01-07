@@ -1,5 +1,5 @@
 public class Meeting extends Task {
-   private String topic;
+    private String topic;
     private String project;
     private String start;
 
